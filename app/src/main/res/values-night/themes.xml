@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for night mode. -->
+    <style name="Theme.Shoesly.Night" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color adjustments for dark mode -->
+        <item name="colorPrimary">@color/primary_neutral_500</item>
+        <item name="colorPrimaryVariant">@color/primary_neutral_700</item>
+        <item name="colorOnPrimary">@color/primary_neutral_0</item>
+        <!-- Secondary brand color adjustments for dark mode -->
+        <item name="colorSecondary">@color/primary_neutral_100</item>
+        <item name="colorSecondaryVariant">@color/primary_neutral_200</item>
+        <item name="colorOnSecondary">@color/primary_neutral_0</item>
+        <!-- Status bar color for dark mode -->
+        <item name="android:statusBarColor">@color/primary_neutral_900</item>
+        <!-- Background color for dark mode -->
+        <item name="android:windowBackground">@color/primary_neutral_100</item>
+        <!-- Splash screen background color for dark mode -->
+        <item name="android:windowSplashScreenBackground">@color/primary_neutral_900</item>
+
+    </style>
+</resources>

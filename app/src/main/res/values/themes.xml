@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Shoesly" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_neutral_500</item>
+        <item name="colorPrimaryVariant">@color/primary_neutral_700</item>
+        <item name="colorOnPrimary">@color/primary_neutral_0</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brand_green_500</item>
+        <item name="colorSecondaryVariant">@color/brand_green_700</item>
+        <item name="colorOnSecondary">@color/primary_neutral_0</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_neutral_900</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/primary_neutral_0</item>
+        <!-- Error colors. -->
+        <item name="colorError">@color/primary_error_500</item>
+        <item name="colorOnError">@color/primary_neutral_0</item>
+        <!-- Splash screen background color. -->
+        <item name="android:windowSplashScreenBackground">@color/primary_neutral_100</item>
+
+    </style>
+</resources>
